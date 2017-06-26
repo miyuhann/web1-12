@@ -24,3 +24,10 @@ for(var i = 1; i < 10; i++){
   li.textContent = price + '円(税込み' + include_tax(price) + '円)';
   document.getElementById('price').appendChild(li);
 }
+
+var constellatio = ['おひつじ座','おうし座','ふたご座','かに座','しし座','おとめ座','てんびん座','さそり座','いて座','やぎ座','みずがめ座','うお座'];
+for(i in constellatio){
+  var li = document.createElement('li');
+  li.textContent = constellatio[i];
+  document.getElementById('array').appendChild(li);
+}
