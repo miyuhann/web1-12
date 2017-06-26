@@ -40,5 +40,5 @@ for(key in player){
 }
 
 document.getElementById('form').onsubmit = function(){
-  window.alert('おされました！');
+  window.alert(document.getElementById('form').word.value);
 };
