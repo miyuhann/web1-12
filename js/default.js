@@ -1,6 +1,6 @@
 for(var i = 1; i < 10; i++){
 var li = docment.createElement('li'); 
-li.textContent = 'アイテム';
+li.textContent = i + '回目';
 document.getElementById('list').appendChild(li);
 }
 
