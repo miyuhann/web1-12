@@ -38,3 +38,7 @@ for(key in player){
   li.textContent = key + ': ' + player[key];
   document.getElementById('object').appendChild(li);
 }
+
+document.getElementById('form').onsubmit = function(){
+  window.alert('おされました！');
+};
